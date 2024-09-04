@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap');
+
+body{
+    background:linear-gradient(rgba(55, 15, 15, 0), rgba(190, 35, 35, 0.107)),
+    no-repeat
+    url(./Image/background\ café.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+h1{
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3rem;
+    font-family:'Oooh Baby';
+      
+}
+
+h2{
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Oooh Baby';
+}
+select{
+    width: 70px;
+    border-radius: 5px;
+}
+h3{
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Oooh Baby';
+}
+.c-p{
+    color: rgb(0, 0, 0);
+}
+
+table, thead, tbody, tr, th, td{
+    margin: 0 auto;
+    border: 1px solid;
+    border-collapse: collapse;
+}
+img {
+    border-radius: 50%;
+
+    }
+    tbody::before{
+        contain:"@";
+        display: block;
+        line-height:"20px" ;
+        text-indent:"-99999px" ;
+    }
+input{
+    border-radius: 5px;
+}
+form{
+    text-align: center;
+}
+div{
+    width: 100%;
+}
+#img-1{
+    width: 25%;
+    
+}
+
+#img-2{
+    width: 30%;
+
+}
+#img-3{
+    width: 25%;
+
+}
+div > a {
+display: table;
+margin: auto;
+
+}
+#img-4{
+    width: 10%;
+    margin: auto;
+    display: table;
+}
+
+h4{
+    text-align: center;
+    color: #000000;
+    padding: 5px;
+}
+
+li{
+    list-style: none;
+    text-align: center;
+}
+
+#l-f{
+    width: 100px;  
+}
+#l-s{
+    width: 135PX;
+}
+#rs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#rs>a{
+    width: 50px; margin: 0%;
+}
+
+
+footer{
+    background-color: rgba(206, 165, 100, 0.747);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    justify-content: space-between;
+}
+
+#reseaux-footer{
+    display: flex;
+ align-items: center;
+}
+
+#reseaux-footer > a > img {
+width: 50px;
+}
+#reseaux-footer > a {
+    display: inline;
+    margin: 0;
+}
+*{
+    margin: 0;
+}
+    
